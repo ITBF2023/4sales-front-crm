@@ -1,0 +1,87 @@
+#createNewFolder {
+    margin-right: 1rem;
+    background-color: grey !important; 
+    border: 1px solid black;
+    float: right;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+}
+
+#imagenDocument {
+    border-radius: 0% !important;
+    width: 30px;
+}
+
+#tipoarchivo:hover {
+border: 1px solid rgb(47, 148, 47) !important;
+}
+
+.icons-list {
+    border-left: 1px solid #b1dee6;
+    }
+    .icons-list > div {
+      border-top: 1px solid #b1dee6; 
+      border-bottom: 1px solid #b1dee6;
+      border-right: 1px solid #b1dee6;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      padding: 15px 15px;
+      font-weight: normal;
+      font-size: 0.875rem; }
+      .icons-list > div i {
+        display: inline-block;
+        font-size: 20px;
+        width: 40px;
+        text-align: left;
+        color: #0090e7; }
+
+
+.ExcelTable2007 {
+border: 1px solid #B0CBEF;
+border-width: 1px 0px 0px 1px;
+font-size: 11pt;
+font-family: Calibri;
+font-weight: 100;
+border-spacing: 0px;
+border-collapse: collapse;
+padding: 10px;
+}
+
+.ExcelTable2007 TH {
+background-repeat: repeat-x; 
+font-weight: bold;
+font-size: 14px;
+border: 1px solid #9EB6CE;
+border-width: 0px 1px 1px 0px;
+height: 17px;
+line-height: 17px;
+}
+
+.ExcelTable2007 TD {
+border: 0px;
+background-color: white;
+padding: 0px 4px 0px 2px;
+border: 1px solid #D0D7E5;
+border-width: 0px 1px 1px 0px;
+}
+
+.ExcelTable2007 TD B {
+border: 0px;
+background-color: white;
+font-weight: bold;
+}
+
+.ExcelTable2007 TD.heading {
+background-color: #E4ECF7;
+text-align: center;
+border: 1px solid #9EB6CE;
+border-width: 0px 1px 1px 0px;
+font-weight: bold;
+}
+
+.ExcelTable2007 TH.heading {
+background-repeat: none;
+}
+

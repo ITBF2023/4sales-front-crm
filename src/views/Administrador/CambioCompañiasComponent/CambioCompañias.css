@@ -1,0 +1,44 @@
+.modal-asignar-compañia-asesor .header-card-listado-asesores-activos{
+    background: linear-gradient(90deg, rgba(34, 137, 255, 0.562) 0%, rgba(111, 255, 236, 0.425) 35%, rgba(0, 213, 255, 0.849) 100%);
+    color: rgb(43, 43, 43);
+    font-weight: 600;
+    padding: 10px;
+    padding: 10px;
+    font-size: 150%;
+    text-align: center;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.modal-asignar-compañia-asesor .listado-asesores-activos-escoger{
+    margin-top: 5px;
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.style-scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+.style-scrollbar::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.style-scrollbar::-webkit-scrollbar-thumb
+{
+	background-color: rgb(84, 207, 255);
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}

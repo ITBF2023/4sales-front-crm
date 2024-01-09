@@ -1,0 +1,43 @@
+#botonComercioUsers {
+    margin-right: 1rem; 
+    background-color: rgb(13, 152, 190) !important; 
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+#imagenforCompanies {
+    border-radius: 50%;}
+
+#titleofcompaniesavailables {
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+
+#list-show-companies:hover p{
+    color: white !important;
+}
+
+.imagen-Company-User{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.botonEliminarCompañia {
+    background-color: rgb(76, 208, 245) !important; 
+    color: rgb(255, 255, 255);
+    padding: 2px 7px 2px 7px !important;
+    margin: 2px 5px 2px 5px!important;
+    border-radius: 10px;
+    /* width: 30px !important; */
+    /* max-width: 50px !important; */
+    min-width: 5px !important;
+    /* border: 1px solid red !important; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    text-transform:capitalize !important;
+}

@@ -1,0 +1,138 @@
+.container-card-gestion-caso {
+    --font-family-primary: 'Vollkorn', serif;
+    --font-family-secondary: 'PT Sans', sans-serif;
+    --font-size-title: 32px;
+    --line-height-title: 1.4;
+    --font-size-caption: 14px;
+    --line-height-caption: 1.2;
+    --color-text: #000000;
+    --color-highlight-primary: #ffef7e;
+    --color-highlight-secondary: #b7f9e9;
+    --border-radius-primary: 32px;
+  }
+  .container-card-gestion-caso {
+    justify-content: center;
+    align-items: center;
+  }
+  .container-card-gestion-caso {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (min-width: 576px) {
+    .container-card-gestion-caso {
+      --font-size-title: 40px;
+   }
+  }
+
+  .container-card-gestion-caso  .container-img-sucursal-choose{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container-card-gestion-caso img {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  @media (min-width: 576px) {
+    .container-card-gestion-caso .card__content {
+      width: 90%;
+      padding-left: 40px;
+   }
+  }
+  .container-card-gestion-caso .card__date {
+    display: block;
+    font-family: optima, sans-serif;
+    font-size: 18px;
+    line-height: var(--line-height-caption);
+    text-transform: uppercase;
+    color: var(--color-text);
+    font-weight: 400;
+  }
+
+  .PrioridadCaso{
+    display: block;
+    font-family: optima, sans-serif;
+    font-size: 18px;
+    line-height: var(--line-height-caption);
+    text-transform: uppercase;
+    color: var(--color-text);
+    font-weight: 400;
+  }
+  @media (min-width: 576px) {
+    .container-card-gestion-caso .card__date {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+  .container-card-gestion-caso .card__title {
+    font-family: comic sans ms;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: var(--line-height-title);
+    color: var(--color-text);
+    box-decoration-break: clone;
+    background-repeat: no-repeat;
+    padding: 0 4px;
+    margin-left: -4px;
+  }
+  
+  
+
+  .container-card-gestion-caso  .col-right{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Estado_usuario_encargado_caso{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    position:absolute; 
+    left:56px; 
+    top:59px
+  }
+
+  .Imagen_usuario_encargado_caso{
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%;
+  }
+
+  .gc_contenedor_flex{
+    display: flex;
+  }
+
+  .gc_contenedor_datos_encargado{
+    display: block; 
+    margin: auto 0 auto 10px
+  }
+
+  .gc_contenedor_imagen_encargado{
+    min-width:210px; 
+    margin:5px 10px 0 10px
+  }
+
+  .gc_contenedor_block{
+    display: block;
+  }
+
+  .gc_botones_sin_fondo_para_iconos{
+    border: none;
+    background-color: transparent;
+  }
+
+  .gc_contenedor_centrado_top_bottom{
+    display: block;
+    margin: auto 0 auto 0;
+  }
+
+  .estilo_botones_gestion_caso{
+    font-size: 20px;
+  }
+  

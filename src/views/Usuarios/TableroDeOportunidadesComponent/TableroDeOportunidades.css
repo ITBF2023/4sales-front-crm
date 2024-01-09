@@ -1,0 +1,21 @@
+.estados-Oportunidad-Cabeceras{
+    width:100%; 
+    display: block; 
+    margin: auto 0 auto 0
+}
+
+.contenedor-card-header-estados{
+    text-align: center;
+    display: flex;
+}
+
+.boton-eliminar-oportunidad{
+    /* border: 1px solid red; */
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.boton-eliminar-oportunidad:hover{
+    background-color: rgba(207, 207, 207, 0.486);
+}

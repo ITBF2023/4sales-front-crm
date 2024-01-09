@@ -1,0 +1,103 @@
+
+
+.container-form-company {
+    margin-right: 8%;
+    margin-left: 8%;
+}
+.imagenRegisterComponent{
+    width: 90%;
+    position: absolute;
+    bottom: 50px;
+}
+.contenedorImagenRegister{
+    background-color: white;
+    height: 100%;
+}
+
+#cardxd{
+    border: 1px solid rgb(165, 217, 219) !important;
+    background-color: white;
+}
+
+.image-company-form{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid red; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+
+    margin-bottom: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.newimagenRegisterComponent{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.buttonnewimage{
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 0;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50%;
+    background-color: darkgray;
+    border: none;
+}
+.texto-titulo-user-form{
+    color: black;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: "Leckerli One", cursive;
+    font-weight: 700 !important; 
+    text-align: center;
+    margin-top: 154px;
+    font-size: 200%;
+}
+.texto-body-alert{
+    color: black;
+    /* text-shadow: 6px 6px 0px rgba(0,0,0,0.2); */
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-weight: 600 !important; 
+    text-align: center;
+    font-size: 150%;
+}
+
+.centrarimagenalert{
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .centrarimagenalertmensaje{
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
+.file-upload-default{
+    display: none;
+}
+
+#card-body-register{
+    border: 1px solid rgb(165, 217, 219);
+}
+
+@media ( max-width: 575px) {
+    #cardxd{
+        display: none;
+    }
+    .container-form-company {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

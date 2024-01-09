@@ -1,0 +1,294 @@
+
+.card-detalles-tarea{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: 1rem; */
+    font-weight: normal;
+    font-feature-settings: "cv02","cv03","cv04","cv11", normal;
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: normal;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-detalles-tarea .titulo-tarea{
+    display: -webkit-box;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical; 
+    /* margin-bottom: 10px; */
+    white-space: normal;
+    /* cursor: pointer; */
+}
+.card-detalles-tarea .row-cabecera-tabla{
+    margin-bottom: 10px;
+}
+.card-detalles-tarea .tabla-titulo{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.card-detalles-tarea .button-add-comentario{
+    border-radius: 20px;
+    text-transform: capitalize;
+    padding: 3px 10px;
+    float: right;
+}
+.contenedor-imagen-icon-todo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.contenedor-imagen-icon-todo .imagen-to-do-list{
+    margin: auto;
+    width: 80%;
+    /* height: 80% !important; */
+    /* height: 200px; */
+    max-width: 140px;
+    max-height: 140px;
+    border: 2px solid rgba(0, 0, 0, 0.068);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contenedor-imagen-icon-todo .imagen-to-do-list:hover{
+    opacity: 0.5;
+    border:1px solid rgba(0, 0, 0, 0.74);
+}
+.prioridad-tarea{
+    display: flex;
+    margin-bottom: 3%;
+    /* border: 2px solid red; */
+}
+
+.prioridad-tarea .descripcion-prioridad-tarea{
+    display: flex;
+    border: 1px solid rgba(121, 121, 121, 0.658);
+    background-color: rgba(0, 0, 0, 0.842);
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    color: #ffffff;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.prioridad-tarea .prioridad-Alta{
+    border: 1px solid rgba(121, 121, 121, 0.658);
+    background-color: rgba(158, 255, 3, 0.842);
+    color: black;
+}
+
+.prioridad-tarea .prioridad-Media{
+    border: 1px solid rgba(121, 121, 121, 0.658);
+    background-color: rgba(34, 162, 179, 0.842);
+}
+
+.prioridad-tarea .prioridad-Critica{
+    border: 1px solid rgba(121, 121, 121, 0.658);
+    background-color: rgba(255, 0, 0, 0.842);
+}
+
+.prioridad-tarea .prioridad-Baja{
+    border: 1px solid rgba(121, 121, 121, 0.658);
+    background-color: rgba(51, 133, 255, 0.842);
+}
+
+.padding-detalles-tareas{
+    padding: 5px 10px 5px 10px;
+}
+
+.contenedor-descripcion-tarea{
+    display: -webkit-box;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical; 
+    margin-bottom: 10px;
+    white-space: normal;
+    cursor: pointer;
+}
+
+.tiempo-desarrollo-tarea{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.estimado-desarrollo-tarea{
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #000000;
+}
+
+.card-detalles-tarea .estado-actual-tarea{
+    border: 1px solid rgba(0, 0, 0, 0.658);
+    background-color: rgba(172, 172, 172, 0.842);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+}
+.card-detalles-tarea .contenedor-estado-actual-tarea:hover{
+    display: flex;
+}
+.card-detalles-tarea .contenedor-estado-actual-tarea:hover > .mostrar-cambiar-estado{
+    display: flex;
+}
+.card-detalles-tarea .button-cambiar-estado-tarea{
+    min-width: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.card-detalles-tarea .contenedor-prioridad-actual-tarea:hover{
+    display: flex;
+}
+.card-detalles-tarea .contenedor-prioridad-actual-tarea:hover > .mostrar-cambiar-prioridad{
+    display: flex;
+}
+
+.card-detalles-tarea .mostrar-cambiar-estado{
+    display: none;
+}
+
+.card-detalles-tarea .mostrar-cambiar-prioridad{
+    display: none;
+}
+
+.tiempo-desarrollo-tarea .encargado-tarea{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.658);
+    background-color: rgba(175, 175, 175, 0.842);
+    border-radius: 20px;
+    padding: 5px 12px 5px 12px;
+    color: #000000;
+    align-items: center;
+    align-content: center;
+}
+
+.tiempo-desarrollo-tarea .encargado-tarea img{
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+}
+
+.observaciones-tabla{
+    font-size: 1rem;
+}
+
+.tabla-observaciones-tarea div[role="row"]{
+    font-size: 1rem;
+}
+
+.tabla-observaciones-tarea{
+    max-height: 550px;
+    overflow:scroll !important;
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+}
+
+.tabla-observaciones-tarea::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.tabla-observaciones-tarea::-webkit-scrollbar
+{
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+}
+
+.tabla-observaciones-tarea::-webkit-scrollbar-thumb
+{
+    background-color: rgba(0, 183, 255, 0.432);
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%,
+                    color-stop(.5, rgba(255, 255, 255, .2)),
+            color-stop(.5, transparent), to(transparent));
+}
+
+.tabla-observaciones-tarea .fecha-creacion-observacion
+{
+    text-transform: capitalize;
+}
+
+.tabla-observaciones-tarea .descripcion-observacion{
+    display: -webkit-box;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical; 
+    margin-bottom: 10px;
+    white-space: normal;
+    cursor: pointer;
+}
+
+.modal-editar-detalles-tarea .modal-footer{
+    padding-top: 0;
+}
+
+.modal-editar-detalles-tarea .modal-footer .button-acciones-footer{
+    border-radius: 15px;
+    padding: 4px 10px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    align-items: center;
+    align-content: center;
+}
+.modal-editar-detalles-tarea .modal-header{
+    display: block;
+    text-align: center;
+}
+
+.modal-editar-detalles-tarea .modal-body{
+    padding-bottom: 0;
+}
+
+.modal-editar-detalles-tarea .input-icon{
+    border-radius: 0 0.375rem 0.375rem 0;
+    padding: 8px;
+}
+
+.modal-editar-detalles-tarea .input-cambio-invalido{
+    border: 1px solid #fb6340;
+    border-left: none;
+    color:  #fb6340;
+}
+
+.modal-editar-detalles-tarea .label-cambio-invalido{
+    display: block;
+    color: #fb6340;
+}
+
+.modal-editar-detalles-tarea .input-cambio-valido{
+    border: 1px solid #2dce89 ;
+    border-left: none;
+    color: #2dce89;
+}
+.modal-editar-detalles-tarea .label-cambio-valido{
+    display: none;
+}
+.modal-editar-detalles-tarea .input-comentario-textarea{
+    min-height: 100px !important;
+}
+
+
+@media(max-width: 575px) {
+    .card-detalles-tarea .button-add-comentario{
+        float: left;
+    }
+  }

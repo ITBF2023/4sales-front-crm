@@ -1,0 +1,11 @@
+.LabelValidador{
+    color: rgb(255, 42, 42);
+    font-weight: 500;
+}
+
+.LabelValidadorFileCargado{
+    color: rgb(255, 42, 42); 
+    margin-top: 2%;
+    padding-right: 5%;
+    font-weight: 500;
+}

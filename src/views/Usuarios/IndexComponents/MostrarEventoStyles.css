@@ -1,0 +1,53 @@
+.container-tooltip-detalle-evento{
+  padding: 0 0 0 0;
+  cursor:default;
+  border-radius: 7px;
+  border:1px solid rgb(128, 128, 128)
+}
+.container-tooltip-detalle-evento .lista-tooltip-detalles-evento{
+  border: none !important;
+  border-radius: 0 0 5px 5px;
+  display: block;
+
+}
+.container-tooltip-detalle-evento .lista-tooltip-detalles-evento:hover{
+  background-color: white !important;
+  cursor:default
+}
+.container-tooltip-detalle-evento .cabecera-tooltip-vista-evento {
+  width: 100%;
+  padding: 2px 0 2px 5px;
+  background-color: rgb(200, 215, 218);
+  color: black;
+  font-size: 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+
+.container-tooltip-detalle-evento .cabecera-tooltip-vista-evento .titulo{
+  font-weight: 600;
+}
+
+.container-tooltip-detalle-evento .icon-centrar-top{
+  width: 20px;
+  max-width: 20px;
+  min-width: 20px;
+}
+
+.container-tooltip-detalle-evento .titulo-evento-detalle{
+  text-transform: none;
+  /* font-family: Chalkduster, fantasy !important; */
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container-tooltip-detalle-evento .contenedor-botones-accion{
+  padding: 10px 0 10px 15px;
+}
+
+.container-tooltip-detalle-evento .contenedor-botones-accion button{
+  text-transform: capitalize;
+  margin: 0 10px 0 0;
+}
