@@ -38,6 +38,8 @@ import Fab from '@mui/material/Fab';
 import CheckIcon from '@mui/icons-material/Check';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import axios from "axios";
+
 
 const Register = () => {
 
@@ -62,23 +64,43 @@ const Register = () => {
 
   const loginUser = async (credentials) =>{
 
+    const headers = {
+      'Access-Control-Allow-Origin':'true',
+      'Content-Type':'application/json; charset=utf-8',
+      'Access-Control-Allow-Headers':'Origin, Content-Type, X-Auth-Token',
+    }
+
     setOpenBackdrop(!openbackdrop)
-      return (
-      fetch('https://4sales.com.co/SISTEMA/api/login/Users', {
-      method: 'POST',
-      headers: {
-        'Access-Control-Allow-Origin':'*',
-        'Content-Type':'application/json; charset=utf-8',
-        'Access-Control-Allow-Headers':'Origin, Content-Type, X-Auth-Token',
-      },
-      body: JSON.stringify(credentials)
-    })
-      .then(data => data.json())
-      .catch(error => {
-        setOpenBackdrop(false)
-        setTitle("No hay respuesta del servidor")
-        setStatus(true)
-      })
+    //   return (
+    //   fetch('https://4sales.com.co/SISTEMA/api/login/Users', {
+    //     mode: 'cors',
+    //   method: 'POST',
+    //   headers: {
+    //     'accept': 'application/json, text/plain',
+    //             'content-type': 'application/json;charset=utf-8'
+    //   },
+    //   body: JSON.stringify(credentials)
+    // })
+    //   .then(data => data.json())
+    //   .catch(error => {
+    //     setOpenBackdrop(false)
+    //     setTitle("No hay respuesta del servidor")
+    //     setStatus(true)
+    //   })
+    // )
+
+    return (
+      axios.post( 'https://4sales.com.co/SISTEMA/api/login/Users' , 
+        JSON.stringify(credentials), {
+          headers : headers
+        }
+        ).then(response => {
+          return response.data
+        }).catch(error => { 
+          setOpenBackdrop(false)
+          setTitle("No hay respuesta del servidor")
+          setStatus(true)
+        })
     )
   }
 
